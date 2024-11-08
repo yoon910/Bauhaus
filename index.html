@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauhaus Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    ul{
+        width: 100%;
+        height: 98px;
+        background-color: #292929;
+        display: flex;
+        justify-content: center;
+
+    }
+    li{
+        width: 450px;
+        padding: 31px 0px;
+        text-align: center;
+        color: #EDEDED;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .block00{
+        width: 100%;
+        height: 982px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/img4.png);
+    }
+    .block01{
+        width: 100%;
+        height: 1080px;
+        background-color: #EDEDED;
+        background-size: cover;
+        background-position: center;
+    }
+    .block02{
+        width: 100%;
+        height: 1080px;
+        background-color: #EDEDED;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .block04{
+        width: 100%;
+        height: 1080px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/img30.png);
+    }
+    .block05{
+        width: 100%;
+        height: 982px;
+        background-size: cover;
+        background-position: center;
+        background-color: #EDEDED;
+    }
+    .block06{
+        width: 100%;
+        height: 98px;
+        background-color: #292929;
+        display: flex;
+        justify-content: center;
+    }
+    .head1{
+        padding-right: 415px;
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 100px;
+        font-weight: 400;
+        padding-top: 321px;
+        text-align: center;
+        margin: 0 auto;
+        filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.5));
+    }
+    .head2{
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 100px;
+        font-weight: 800;
+        text-align: center;
+        margin: 0 auto;
+        filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.5));
+    }
+    .body1{
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 212px;
+    }
+    .body2{
+        width: 870px;
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    .headcopy01{
+        text-align: center;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        width: 100%;
+        padding-top: 81px;
+    }
+    .bodycopy01{
+        padding-top: 30px;
+        text-align: left;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 1017px;
+        height: 260px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .img01{width: 370px; height: 260px; position: absolute;}
+    .txt01{width: 632px; position: absolute; right: 0; padding-top: 87px;}
+
+    .bodycopy02{
+        padding-top: 30px;
+        text-align: right;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 1017px;
+        height: 260px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .img02{width: 370px; height: 260px; position: absolute; right: 0;}
+    .txt02{width: 632px; position: absolute; padding-top: 87px;}
+
+    .bodycopy03{
+        padding-top: 30px;
+        text-align: left;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 1017px;
+        height: 260px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .img03{width: 370px; height: 260px; position: absolute;}
+    .txt03{width: 632px; position: absolute; right: 0; padding-top: 87px;}
+
+    
+    .kkk{
+        position: relative;
+        width: 1350px;
+        height: 870px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .year1{
+        left: 0;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .headcopy02{
+        left: 0;
+        padding-top: 87px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .bodycopy04{
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .year2{
+        padding-top: 208px;
+        padding-left: 675px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .headcopy03{
+        padding-top: 295px;
+        padding-left: 675px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .bodycopy05{
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .year3{
+        padding-top: 416px;
+        padding-left: 183px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .headcopy04{
+        padding-top: 503px;
+        padding-left: 183px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .bodycopy06{
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .year4{
+        padding-top: 684px;
+        padding-left: 855px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .headcopy05{
+        padding-top: 771px;
+        padding-left: 855px;
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .bodycopy07{
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .img04{position:absolute; width: 201px; height: 201px; padding-top: 193px; padding-left: 100px;}
+    .txt04{position:absolute; bottom: 657px; left: 0;}
+    .img05{position:absolute;width: 201px; height: 201px; padding-top: 122px; padding-left: 914px;}
+    .txt05{position:absolute; padding-left: 675px; bottom: 449px;}
+    .img06{position:absolute; width: 201px; height: 201px; padding-top: 669px; padding-left: 321px;}
+    .txt06{position:absolute; bottom: 181px; padding-left: 183px;}
+    .img07{position:absolute; width: 201px; height: 201px; padding-top: 598px; padding-left: 1103px;}
+    .txt07{position:absolute; padding-left: 855px; bottom: 2px;}
+
+    .text{
+        width: 413px;
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+        padding-top: 42px;
+        text-align: center;
+    }
+        
+    
+    .bodycopy08{
+        width: 1302px;
+        height: 409px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .headcopy06{
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        margin: 0 auto;
+        padding-top: 292px;
+        text-align: center;
+        width: 100%;
+    }
+    .text1{
+        position: absolute;
+        left: 0;
+    }
+    .text2{
+        position: absolute;
+    }
+    .text3{
+        position: absolute;
+        right: 0;
+    }
+    
+
+
+    .bbb{
+        top: 116px;
+        width: 761px;
+        height: 761px;
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .headcopy07{
+        position: absolute;
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: right;
+        padding-top: 43px;
+        padding-left: 63px;
+    }
+    .bodycopy09{
+        color: black;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .main{
+        width: 318px;
+        position: absolute;
+        text-align: right;
+        padding-top: 162px;
+        padding-left: 51px;
+    }
+    .main2{
+        width: 318px;
+        position: absolute;
+        text-align: left;
+        padding-top: 387px;
+        padding-left: 394px;
+    }
+    .img08{
+        width: 380px;
+        height: 380px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .img09{
+        width: 380px;
+        height: 380px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .aaa{
+        width: 1222px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .a1{
+        position: absolute;
+        color: #EDEDED;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        padding-top: 40px;
+        left: 0;
+    }
+    .a2{
+        position: absolute;
+        color: #EDEDED;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 15px;
+        text-align: center;
+        padding-top: 34px ;
+        
+    }
+    .a3{
+        position: absolute;
+        color: #EDEDED;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        padding-top: 40px;
+        right: 5.4%;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <a href="#link1"><li>CHAPTER 1</li></a>
+            <a href="#link2"><li>CHAPTER 2</li></a>
+            <a href="#link3"><li>CHAPTER 3</li></a>
+        </ul>
+    </nav>
+<section>
+    <div class="block00">
+            <div class="head1">
+                 김정운의
+            </div>
+            <div class="head2">
+                '바우하우스 이야기'
+            </div>
+        <div class="body1">
+            잡스, 바우하우스 훔쳐 소니 넘었다
+        </div>
+        <div class="body2">
+            대학 입학 후 우연히 손에 넣게 된 소니 워크맨의 그 깜찍함은 내게 
+            충격이었다. 레너드 코언이 노래하는 거친 저음의 ‘소 롱 매리앤느(So 
+            Long, Marianne)’를 들었다. 전율이었다. 그때나 지금이나 나는 이미 했던 
+            이야기 ‘하고, 또 하는’ 사내들의 술자리를 극도로 혐오한다. 차라리 
+            헤드폰을 끼고 음악을 듣는 편이 훨씬 행복하다. 소니 워크맨의 충격 이후 
+            생긴 습관이다. 한동안 나는 소니의 전자제품을 사고 싶어 환장했다. 
+            전자제품이 어떻게 이렇게 아름다울 수 있을까 싶었다. 유학 시절에는 소
+            니의 트리니트론(Trinitron) TV가 그렇게 갖고 싶었다. 그러나 가격이 
+            삼성·LG TV의 두 배였다. 3평 남짓한 기숙사에 사는 유학생이 소유하기엔 
+            너무 크고 사치스러운 물건이었다. 그렇게 아름다웠던 소니의 물건들이 어느 
+            순간부터 황당하게 변했다. 오늘날의 소니는 그때 
+            나를 그렇게 흥분시켰던 그 소니가 더 이상은 아니다. 회생 불가능해 보인다. 
+        </div>
+    </div>
+
+    <div class="block01" id="link1">
+        <div class="headcopy01">
+            그때, 마음을 빼앗았던 소니의 디자인
+        </div>
+        <div class="bodycopy01">
+           <div class="txt01">
+            당시 소니는 어떻게 그토록 폼이 났을까. 소니의 전성기는 1975년 독일의 전자회사 베가(Wega)를 인수한 후부터다. 
+            23년 설립된 베가는 역시 독일의 전자회사인 브라운(Braun)과 앞서거니 뒤서거니 경쟁하며 둘 다 전자기기에 ‘디자인’이라는 새로운 
+            개념을 연결시킨, 독일을 대표하는 기업이었다. 당시 브라운에는 한스 구겔로트(Hans Gugelot·1920~65)와 
+            디터 람스(Dieter Rams·1932~)라는 전설적인 디자이너가 있었다. 브라운에 뒤처져 있던 베가는 외부의 디자인 회사에 제품 디자인을 맡겼다. 
+            승부수는 먹혔다. 베가의 제품들은 단숨에 브라운을 따라잡았다.이때 베가의 디자인을 도맡았던 이가 젊고 야심찬 하르트무트 
+            에슬링거(Hartmut Esslinger·1944~)였다.        
+           </div>      
+           <div class="img01"> <img src="img/img2.png" alt="Bauhaus Story"></div>
+        </div>
+        <div class="bodycopy02"> 
+            <div class="img02"><img src="img/img3.png" alt="Bauhaus Story"></div>
+            <div class="txt02">
+                베가를 인수한 후 베가의 디자인 명성까지도 갖고 싶어 했던 소니는 ‘소니-베가(Sony-Wega)’라는 브랜드를 새로 만들었다. 
+                베가의 디자인을 도맡았던 에슬링거와의 공동작업도 한동안 계속됐다‘소니-베가’는 2005년 ‘브라비아(Bravia)’라는 새로운 
+                브랜드가 생길 때까지 지속됐다. 유학시절 그렇게 갖고 싶었던 소니의 트리니트론 TV는 바로 소니-베가의 에슬링거가 디자인한 제품이었다. 
+                소니의 전자제품에 대한 내 관심이 식어갈 무렵 새 전자제품이 나타나 다시 내 영혼을 빼앗았다. 애플이다. 
+                나는 애플의 새 제품을 사고 싶어 안달했다. 
+                애플 컴퓨터는 윈도 기반의 컴퓨터에 비해 두 배 가까이 비쌌다. 그래도 나는 애플이 갖고 싶었다. 너무 예뻤기 때문이다.     
+            </div>
+         </div>
+         <div class="bodycopy01">
+            <div class="img03"><img src="img/img22.png" alt="Bauhaus Story"></div>
+            <div class="txt03">
+                당시 나를 환장하게 했던 애플 컴퓨터의 디자인은 ‘백설공주(Snow White)’ 디자인이라 불렸다. 
+                이것이 소니 트리니트론을 디자인했던 하르트무트 에슬링거, 바로 그의 작품이었다는 것을 한참 후에 알았다. 
+                그는 82년부터 애플에 합류했다. 스티브 잡스도 한때 ‘소니 마니아’였다. 잡스가 집의 차고를 나와 처음으로 얻은 
+                사무실은 소니 매장과 같은 건물이었다. 잡스는 수시로 소니 매장을 기웃거렸다. 그때 자신에게 새로운 제품이 나올 
+                때마다 브로슈어를 건네준 판매원을 잡스는 훗날 애플로 스카우트했다. 바로 그 ‘소니 스타일’을 개발한 에슬링거가 
+                이제 애플의 스티브 잡스와 손잡은 것이다. 그러나 새로 영입한 에슬링거에게 잡스가 요구한 것은 정작 ‘소니 스타일’이 
+                아니었다. ‘바우하우스 스타일’이었다.
+            </div>      
+         </div>
+    </div>
+    
+    <div class="block02">
+        <div class="kkk">
+        <div class="year1">
+            1945
+        </div>
+        <div class="headcopy02">
+            헤르베르트 바이에르 Herbert Bayer
+        </div>
+        <div class="bodycopy04">
+            <div class="txt04">
+                바우하우스의 출판·광고국장을 지낸 헤르베르트 바이어는 그래픽 디자이너 겸 사진가 겸 건축<br>
+                가다. 기하학적 산세 리프 활자체를 고안했고, 미국으로 건너간 뒤인 45년 콜로라도 애스펀 리<br>
+                조트를 설계했다.
+            </div>
+            <div class="img04"><img src="img/img5.png" alt="Bauhaus Story"></div>
+        </div>
+        <div class="year2">
+            1961
+        </div>
+        <div class="headcopy03">
+            디터 람스 Dieter Rams
+        </div>
+        <div class="bodycopy05">
+            <div class="txt05">
+                불세출의 산업 디자이너 디터 람스는 독일 전자회사 브라운에서 61년부터 수석 디자이너로 일<br>
+                하며 미니멀한 디 자인의 정수를 선보였다. '백설공주의 관'으로 불리는 복합음향기기 SK4도<br>
+                그의 작품이다.
+            </div>
+            <div class="img05"><img src="img/img6.png" alt="Bauhaus Story"></div>
+        </div>
+        <div class="year3">
+            1975
+        </div>
+        <div class="headcopy04">
+            하르트무트 에슬링거 Hartmut Esslinger
+        </div>
+        <div class="bodycopy06">
+            <div class="img06"><img src="img/img7.png" alt="Bauhaus Story"></div>
+            <div class="txt06">
+                대학 졸업 후 '프로그(Frog) 디자인'을 설립한 하르트무트 에슬링거는 독일 전 자회사 베가의<br>
+                TV디자인으로 이름을 알린다. 75년 베가가 소니에 인수된 뒤 에는 소니의 명성을 드높인 트리<br>
+                니트론 TV를 디자인했다. 82년 애플에 합류한 그는 '백설공주' 스타일을 선보인다. 흰색 케이<br>
+                스, 간결하고 둥근모서리, 길고 얇은 홈의 선들이 나란히 이어지는 것이 특징으로 디터 람스의<br>
+                작품들에서 “훔쳐왔다”.
+            </div>
+        </div>
+        <div class="year4">
+            1983
+        </div>
+        <div class="headcopy05">
+            스티브 잡스 Steve Jobs
+        </div>
+        <div class="bodycopy07">
+            <div class="img07"><img src="img/img10.png" alt="Bauhaus Story"></div>
+            <div class="txt07">
+                소니 스타일을 추구했던 잡스는 83년 애스펀 리조트에서 헤르베르트 바이에르의 디자인을 경<br>
+                험한 뒤 바우하우스 스타일로의 대전환을 천명한다.
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="block04">
+        <div class="headcopy06" id="link2">
+            소니에서 바우하우스로
+        </div>
+        <div class="ccc">
+        <div class="bodycopy08">
+        <div class="text text1">
+            잡스는 83년 콜로라도 ‘애스펀(Aspen) 디자인 콘퍼런스’에서 행한 강연에서 그때까지 자신이 그토록 좋아하던 소니를 “검은색이고 우중충하다”며 아주 심하게 ‘디스’했다. 
+            그리고 제품의 기능에 충실한 바우하우스 스타일로 바꾸겠다고 선언한다. “현재 산업디자인의 흐름은 소니의 하이테크 스타일입니다. 주로 암회색이고, 가끔 검은색을 사용해 
+            이상한 짓을 하기도 하지요. 그렇게 하는 건 쉽습니다. 하지만 위대하진 않습니다…우리가 하려는 것은 하이테크 제품을 만들어 깔끔한 패키지에 담아 소비자들이 패키지만 
+            보고도 하이테크 제품인 줄 알게 하는 것입니다. 아름다운 백색 제품을 만들어 작고 깔끔한 패키지에 담을 것입니다. 브라운사의 전자기기에서 느낄 수 있는 느낌을 제공하고자 
+            하는 겁니다.” (월터 아이작슨, 안진환 역, 『스티브 잡스』, 민음사, 2011년, 246~247쪽) 잡스가 바우하우스의 디자인을 
+            접한 것은 ‘애스펀 디자인 콘퍼런스’가 열렸던 바로 그곳이었다. 애스펀 리조트를 총괄 디자인한 이는 헤르베르트 바이에르(Herbert Bayer·1900~1985)다. 
+        </div>
+        <div class="text text2">
+            그는 애스펀 리조트 전체 조형을 위한 토목작업과 건물설계는 물론 식당·호텔방의 구석구석, 작은 소품에 이르기까지 직접 관여했다. 
+            바이에르는 독일 바우하우스 철학을 그 누구보다도 완성된 형태로 체험한 사람이었다. 그는 바이마르의 바우하우스에서 21년부터 25년까지 학생으로 공부했다. 
+            바우하우스가 데사우로 이사한 후부터는 인쇄공방의 선생으로 일했다. 오늘날 바우하우스식 타이포그래피로 여겨지는 소문자의 산세리프 글자체가 바이에르의 작품이다. 
+            그는 이 글자체를 ‘유니버설 타입’이라 불렀다. 그는 오늘날 우리가 ‘그래픽 디자인’이라고 부르는 영역의 창시자로 여겨진다(잡스는 자신이 중퇴한 리드대학교에서 배운 
+            것이라고는 ‘타이포그래피’ 수업뿐이었다고 수시로 이야기했다. 그때 잡스가 인상적으로 느꼈던 산세리프체를 대중화시킨 이가 바로 바이에르다). 나치의 억압을 피해 38년 
+            미국 뉴욕으로 이주한 바이에르는 45년 대규모 프로젝트를 제안받는다. 바로 애스펀 리조트의 설계였다. 리조트가 건립되고 수십 년이 지난 후 잡스는 이곳에서 바이에르가 
+            디자인한 ‘바우하우스식 깔끔한 디자인’에 깊은 감명을 받은 것이다. 
+        </div>
+        <div class="text text3">
+            사실 소니에 대한 잡스의 태도는 사뭇 모순적이다. 83년의 ‘소니 디스’ 발언 이후에도 잡스는 애플의 디자이너들에게 수시로 “만약 소니라면 
+            어떻게 만들까?”라고 물었다. 아이폰의 시제품을 만들 때에는 이름을 ‘소니 스타일’이라고 붙여가면서까지 소니를 흉내 내려 했다. ‘소니 디스 사건’이 20년도 
+            더 지난 2006년의 일이다. 잡스의 ‘재팬 스타일’에 대한 관심은 죽을 때까지 지속되었다. 그의 트레이드마크인 ‘블랙 터틀넥’ 또한 일본 디자이너 이세이 
+            미야케의 작품이다. 아무튼 ‘소니에서 바우하우스로(from Sony to Bauhaus)’라는 잡스의 83년 선언은 이제 막 애플에 합류한 에슬링거에게 큰 과제가 됐다. 
+            잡스는 피카소가 남긴 “유능한 예술가는 모방하고, 위대한 예술가는 훔친다(Good artists copy, great artists steal)”는 이야기를 수시로 했다. 에슬링거는 
+            잡스가 원했던 바로 그 ‘위대한 예술가’였다. 잘 ‘훔쳐왔다’는 이야기다. 
+            ‘소니 스타일’에서 벗어나 ‘바우하우스 스타일’로 옮겨가 달라는 잡스의 요청을 받은 에슬링거는 독일 브라운사의 디터 람스에게서 ‘훔쳐왔다’.
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="block05">
+        <div class="bbb">
+        <div class="headcopy07" id="link3">
+            잡스 손잡은 에슬링거<br>
+            ‘디터 람스’를 훔치다
+        </div>
+        <div class="bodycopy09">
+            <div class="main">
+                훔쳐온 제품 디자인의 명칭도 하필 ‘백설공주’였다. 디터 람스가 디자인한 제품 중 가장 히트 친 복합음향기기 SK 시리즈의 별명이 바로 
+                ‘백설공주의 관(棺)’이었기 때문이다. 턴테이블과 진공관 라디오를 일체형으로 개발한 브라운의 SK 시리즈는 독일 특유의 둔탁한 느낌은 찾아볼 수 없는 전혀 다른 
+                모습의 전자기기였다. 전체적으로 하얗고, 아크릴로 된 뚜껑으로 내부가 들여다보이기에 이런 별명을 얻었다. 
+            </div>
+            <div class="img08"><img src="img/img1.png" alt="Bauhaus Story"></div>
+            <div class="main2">
+                거기에 스피커를 장식한 가늘고 긴 세로의 선들은 기계를 더욱 깔끔하고 날렵하게 보이게 해주었다. 에슬링거의 애플 컴퓨터는 디터 
+                람스의 이 같은 디자인적 특징을 그대로 훔쳐온 것이다. 디터 람스는 바우하우스의 전통을 다시 세우기 위해 전쟁 후 서독에 설립된 
+                ‘울름조형학교(Hochschule für Gestaltung Ulm)’와 아주 깊은 관련이 있다. 에슬링거의 뒤를 이어 오늘날까지 애플의 디자인을 책임지고 있는 
+                조너선 아이브(Jonathan Ive) 또한 디터 람스의 디자인을 ‘훔쳐왔다’는 사실은 널리 알려져 있다. 20세기 후반 가장 
+                혁신적이라는 평가를 받는 소니와 애플의 디자인은 이런 식으로 1919년 설립된 바우하우스에 뿌리를 내리고 있는 것이다.
+            </div>
+            <div class="img09"><img src="img/img11.png" alt="Bauhaus Story"></div>
+        </div>
+    </div>
+</div>
+    <div class="block06">
+        <div class="aaa">
+        <div class="a1">김정운 문화심리학자</div>
+        <div class="a2">베를린자유대학교에서 문화심리학으로 디플롬, 박사학위를 취득한 후 베를린자유대 전임강사, 명지대 교수를 역임했다. 2012년, 교수를 사임하고 일본 교토 사가예술대에서 일본화를 전공했다. <br>
+            2016년 귀국 후, 여수에 살며 그림 그리고, 글 쓰고, 작은 배를 타고나가 눈먼 고기도 잡는다. 저서로『에디톨로지』『가끔은 격하게 외로워야 한다』『남자의 물건』등이 있다.</div>
+        <div class="a3">중앙일보</div>
+    </div>
+</div>
+</div>
+</section>
+    
+</body>
+</html>
